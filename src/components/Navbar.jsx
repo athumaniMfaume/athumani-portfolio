@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo.JPG'
 import { ResponsiveMenu } from '../components/ResponsiveMenu';
 
 

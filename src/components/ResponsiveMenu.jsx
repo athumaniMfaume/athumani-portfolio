@@ -1,5 +1,5 @@
 import React from 'react'
-import athumani from '../assets/athumani.jpg'
+import athumani from '../assets/athumani.JPG'
 import {FaMapMarkerAlt, FaRegEnvelope} from 'react-icons/fa'
 import { MdOutlinePhoneIphone } from 'react-icons/md'
 import { NavLink } from 'react-router-dom'

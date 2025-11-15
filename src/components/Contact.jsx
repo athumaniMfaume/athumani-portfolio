@@ -15,10 +15,10 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_ri50cxq', // replace with your EmailJS service ID
-        'template_sl00xpo', // replace with your EmailJS template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        'zlR6c3Z3_xpU-eFig' // replace with your EmailJS public key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -67,7 +67,7 @@ export const Contact = () => {
               />
               <input
                 type='email'
-                name='email' // match template variable if used
+                name='email' // match your template {{email}}
                 placeholder='Email Address'
                 className='text-white font-semibold border-2 p-3 rounded-xl bg-gray-800'
                 required
@@ -114,4 +114,5 @@ export const Contact = () => {
     </div>
   );
 };
+
 

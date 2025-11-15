@@ -1,8 +1,8 @@
 // data.jsx
 import { FaLaptopCode, FaMobileAlt, FaHeadset, FaBullhorn } from 'react-icons/fa';
 import { SiReact, SiLaravel, SiFlutter } from 'react-icons/si';
-import fred from '../assets/fred.JPEG';
-import odhiambo from '../assets/odhiambo.PNG';
+import fred from '../assets/fred.jpeg';
+import odhiambo from '../assets/odhiambo.png';
 import ems from '../assets/ems.PNG';
 import cms from '../assets/cms.PNG';
 import eb from '../assets/eb.PNG';

@@ -1,5 +1,5 @@
 import React from 'react'
-import athumani from '../assets/athumani.JPG'
+import athumani from '../assets/athumani.jpg'
 import { FaMapMarkerAlt, FaRegEnvelope, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa'
 import { MdOutlinePhoneIphone } from 'react-icons/md'
 

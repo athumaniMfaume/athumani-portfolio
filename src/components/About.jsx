@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../components/Navbar'
-import athumani from '../assets/athumani.JPG'
+import athumani from '../assets/athumani.jpg'
 import { services, testimonials } from './data'
 
 export const About = () => {

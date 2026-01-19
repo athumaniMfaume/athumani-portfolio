@@ -60,7 +60,7 @@ export const projects = [
     tags: ["Laravel", "MYSQL"],
     image: ems,
     github: "https://github.com/athumaniMfaume/employees-management-system",
-    demo: "",
+    demo: "https://ems.mballahrise.com",
   },
 
 {

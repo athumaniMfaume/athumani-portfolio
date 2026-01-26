@@ -34,15 +34,17 @@ const blueIconStyle = { background: 'rgb(33, 150, 243)', color: '#fff' };
 
 // Projects
 export const projects = [
-  {
-    id: 3,
-    title: "Career Guidance Quiz",
-    description: "The app allows users to answer multiple-choice questions and get personalized career suggestions based on their answer",
-    tags: ["React", "Tailwind CSS"],
-    image: cms,
-    github: "https://github.com/athumaniMfaume/career-quiz-react",
-    demo: "https://careerquizreact.netlify.app/",
+
+    {
+    id: 1,
+    title: "Employee Management System",
+    description: "Laravel-based web app to manage employees, track leave, monitor payroll, and organize departments efficiently.",
+    tags: ["Laravel", "MYSQL"],
+    image: ems,
+    github: "https://github.com/athumaniMfaume/employees-management-system",
+    demo: "https://employees-management-system-2.onrender.com/",
   },
+
 {
   id: 2,
   title: "Appointment Request Website",
@@ -53,15 +55,17 @@ export const projects = [
   demo: "https://ebweb2.netlify.app",
 },
 
-  {
-    id: 1,
-    title: "Employee Management System",
-    description: "Laravel-based web app to manage employees, track leave, monitor payroll, and organize departments efficiently.",
-    tags: ["Laravel", "MYSQL"],
-    image: ems,
-    github: "https://github.com/athumaniMfaume/employees-management-system",
-    demo: "https://employees-management-system-2.onrender.com/",
-  },
+{
+  id: 3,
+  title: "E-commerce Website",
+  description: "Laravel-based e-commerce system with user authentication, product management, cart, and payment integration. Fully responsive.",
+  tags: ["PHP", "Laravel", "MySQL", "CSS", "JavaScript"],
+  image: c1,
+  github: "https://github.com/athumaniMfaume/ecommerce-project",
+  demo: "",
+},
+
+
 
 {
   id: 4,
@@ -82,16 +86,17 @@ export const projects = [
   github: "https://github.com/athumaniMfaume/blog-django",
   demo: "",
 },
+  {
+    id: 6,
+    title: "Career Guidance Quiz",
+    description: "The app allows users to answer multiple-choice questions and get personalized career suggestions based on their answer",
+    tags: ["React", "Tailwind CSS"],
+    image: cms,
+    github: "https://github.com/athumaniMfaume/career-quiz-react",
+    demo: "https://careerquizreact.netlify.app/",
+  },
 
-{
-  id: 6,
-  title: "E-commerce Website",
-  description: "Laravel-based e-commerce system with user authentication, product management, cart, and payment integration. Fully responsive.",
-  tags: ["PHP", "Laravel", "MySQL", "CSS", "JavaScript"],
-  image: c1,
-  github: "https://github.com/athumaniMfaume/ecommerce-project",
-  demo: "",
-},
+
 
 ];
 

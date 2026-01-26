@@ -35,7 +35,7 @@ const blueIconStyle = { background: 'rgb(33, 150, 243)', color: '#fff' };
 // Projects
 export const projects = [
   {
-    id: 1,
+    id: 3,
     title: "Career Guidance Quiz",
     description: "The app allows users to answer multiple-choice questions and get personalized career suggestions based on their answer",
     tags: ["React", "Tailwind CSS"],
@@ -54,13 +54,13 @@ export const projects = [
 },
 
   {
-    id: 3,
+    id: 1,
     title: "Employee Management System",
     description: "Laravel-based web app to manage employees, track leave, monitor payroll, and organize departments efficiently.",
     tags: ["Laravel", "MYSQL"],
     image: ems,
     github: "https://github.com/athumaniMfaume/employees-management-system",
-    demo: "https://ems.mballahrise.com",
+    demo: "https://employees-management-system-2.onrender.com/",
   },
 
 {

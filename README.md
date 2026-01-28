@@ -1,16 +1,61 @@
-# React + Vite
+Athumani Mfaume Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the personal portfolio website of Athumani Mfaume, built using React. It showcases personal information, skills, projects, experience, and contact details in a modern, responsive, and interactive web design.
 
-Currently, two official plugins are available:
+Live Demo: https://athumanimfaume.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Repository: GitHub
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive design for desktop, tablet, and mobile devices
 
-## Expanding the ESLint configuration
+Sections include: About Me, Skills, Projects, Experience, and Contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interactive UI with smooth scrolling and animations
+
+Contact form to send messages directly
+
+Easily deployable to platforms like Netlify or Vercel
+
+Technology Stack
+
+Frontend: React, JavaScript, HTML5, CSS3
+
+Styling & UI: CSS Modules, Tailwind CSS (if used), or plain CSS
+
+Hosting: Netlify
+
+Installation (For Local Development)
+
+Clone the repository
+
+git clone https://github.com/athumaniMfaume/athumani-portfolio.git
+cd athumani-portfolio
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm start
+
+
+Open http://localhost:3000
+ in your browser
+
+Deployment
+
+The project is ready to be deployed on platforms like Netlify, Vercel, or any static hosting service.
+
+Build the production version with:
+
+npm run build
+
+Contact
+
+For inquiries, collaborations, or feedback:
+Email: athumanimfaume1995@gmail.com

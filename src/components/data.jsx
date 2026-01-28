@@ -4,6 +4,8 @@ import { SiReact, SiLaravel, SiFlutter } from 'react-icons/si';
 import fred from '../assets/fred.jpeg';
 import odhiambo from '../assets/odhiambo.png';
 import ems from '../assets/ems.PNG';
+import msms from '../assets/msms.PNG';
+import sms from '../assets/sms.PNG';
 import cms from '../assets/cms.PNG';
 import eb from '../assets/eb.PNG';
 import n1 from '../assets/n1.PNG';
@@ -65,10 +67,30 @@ export const projects = [
   demo: "",
 },
 
+{
+  id: 4,
+  title: "Mult School Management System (EduManage SMS)",
+  description: "EduManage SMS is a monolithic Laravel 12 application with React integration, designed to manage multiple schools efficiently. It helps administrators manage students, teachers, courses, and enrollments in a centralized and user-friendly interface.",
+  tags: ["Laravel 12", "React", "MySQL", "AdminLTE", "Bootstrap"],
+  image: msms, // replace with your project image variable
+  github: "https://github.com/athumaniMfaume/edumanage-sms",
+  demo: "", // add live demo URL if available
+},
+
+{
+  id: 5,
+  title: "School Management System",
+  description: "A web-based school management system built using Laravel 11 with AdminLTE template. It helps schools efficiently manage students, teachers, courses, classes, exam results, fees, timetables, and announcements.",
+  tags: ["Laravel 11", "AdminLTE", "MySQL", "Blade", "Bootstrap"],
+  image: sms, // replace with your project image variable
+  github: "https://github.com/athumaniMfaume/School-Management-System",
+  demo: "", // add live demo URL if available
+}
+
 
 
 {
-  id: 4,
+  id: 6,
   title: "Notes Management System",
   description: "MERN stack app to create, organize, and manage notes efficiently.",
   tags: ["MongoDB", "Express", "React", "Node"],
@@ -78,7 +100,7 @@ export const projects = [
 },
 
 {
-  id: 5,
+  id: 7,
   title: "Notes/Posts Management System",
   description: "Django web app with user authentication, role management, and post creation/viewing. Fully responsive for desktop and mobile.",
   tags: ["Python", "Django", "PostgreSQL", "CSS", "JavaScript"],
@@ -87,7 +109,7 @@ export const projects = [
   demo: "",
 },
   {
-    id: 6,
+    id: 8,
     title: "Career Guidance Quiz",
     description: "The app allows users to answer multiple-choice questions and get personalized career suggestions based on their answer",
     tags: ["React", "Tailwind CSS"],

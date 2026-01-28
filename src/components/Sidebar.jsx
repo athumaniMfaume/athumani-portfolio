@@ -5,20 +5,21 @@ import { MdOutlinePhoneIphone } from 'react-icons/md'
 
 export const Sidebar = () => {
 const technicalSkills = [
-  "Laravel & REST APIs",
-  "React & Redux",
-  "Flutter & Dart",
+  "Laravel & APIs",
+  "React",
+  "Flutter",
   "JavaScript (ES6+)",
-  "HTML, CSS & Tailwind",
-  "MySQL & PostgreSQL",
+  "HTML, CSS, Tailwind",
+  "MySQL, PostgreSQL, MongoDB",
   "Python & Django",
-  "Spring Boot & Java",
-  "CI/CD (GitHub Actions, Jenkins)",
-  "Cloud: AWS & Azure",
-  "AI & Machine Learning",
-  "Payment Gateway Integration",
-  "IT Support & Networking"
+  "Java & Spring Boot",
+  "AI / ML Basics",
+  "Cloud (AWS, Azure)",
+  "CI/CD",
+  "Payment Integration",
+  "IT Support"
 ];
+
 
 
   const softSkills = [

@@ -85,9 +85,7 @@ export const projects = [
   image: sms, // replace with your project image variable
   github: "https://github.com/athumaniMfaume/School-Management-System",
   demo: "", // add live demo URL if available
-}
-
-
+},
 
 {
   id: 6,

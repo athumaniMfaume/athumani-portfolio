@@ -4,20 +4,22 @@ import { FaMapMarkerAlt, FaRegEnvelope, FaLinkedin, FaGithub, FaWhatsapp } from 
 import { MdOutlinePhoneIphone } from 'react-icons/md'
 
 export const Sidebar = () => {
-  const technicalSkills = [
-    "Laravel",
-    "React",
-    "Flutter",
-    "JavaScript",
-    "CSS & Tailwind",
-    "MySQL & PostgreSQL",
-    "API Integration",
-    "Python",
-    "Django",
-    "Spring Boot",
-    "Java",
-    "IT Support"
-  ];
+const technicalSkills = [
+  "Laravel & REST APIs",
+  "React & Redux",
+  "Flutter & Dart",
+  "JavaScript (ES6+)",
+  "HTML, CSS & Tailwind",
+  "MySQL & PostgreSQL",
+  "Python & Django",
+  "Spring Boot & Java",
+  "CI/CD (GitHub Actions, Jenkins)",
+  "Cloud: AWS & Azure",
+  "AI & Machine Learning",
+  "Payment Gateway Integration",
+  "IT Support & Networking"
+];
+
 
   const softSkills = [
     "Digital Marketing",

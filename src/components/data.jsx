@@ -11,6 +11,7 @@ import eb from '../assets/eb.PNG';
 import n1 from '../assets/n1.PNG';
 import dja1 from '../assets/dja1.PNG';
 import c1 from '../assets/c1.PNG';
+import user from '../assets/user.PNG';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -49,13 +50,17 @@ export const projects = [
 
 {
   id: 2,
-  title: "Appointment Request Website",
-  description: "A smart website that allows users to request appointments via a calendar and send messages through an integrated contact form.",
-  tags: ["React", "Tailwind CSS", "JavaScript"],
-  image: eb,
-  github: "https://github.com/athumaniMfaume/ebweb2",
-  demo: "https://ebweb2.netlify.app",
-},
+  title: "User Management System",
+  description: "MERN stack app to manage users with authentication, roles, and secure access.",
+  tags: ["MongoDB", "Express", "React", "Node", "JWT", "bcrypt"],
+  image: user,
+  github: "https://github.com/athumaniMfaume/mern-user-management-system",
+  demo: "https://mern-user-management-system.onrender.com/",
+}
+
+
+
+
 
 {
   id: 3,
@@ -67,10 +72,21 @@ export const projects = [
   demo: "https://mern-notes-management-system.onrender.com/",
 },
 
+{
+  id: 4,
+  title: "Appointment Request Website",
+  description: "A smart website that allows users to request appointments via a calendar and send messages through an integrated contact form.",
+  tags: ["React", "Tailwind CSS", "JavaScript"],
+  image: eb,
+  github: "https://github.com/athumaniMfaume/ebweb2",
+  demo: "https://ebweb2.netlify.app",
+},
+
+
 
 
 {
-  id: 4,
+  id: 5,
   title: "Mult School Management System (EduManage SMS)",
   description: "EduManage SMS is a monolithic Laravel 12 application with React integration, designed to manage multiple schools efficiently. It helps administrators manage students, teachers, courses, and enrollments in a centralized and user-friendly interface.",
   tags: ["Laravel 12", "React", "MySQL", "AdminLTE", "Bootstrap"],
@@ -80,7 +96,7 @@ export const projects = [
 },
 
 {
-  id: 5,
+  id: 6,
   title: "School Management System",
   description: "A web-based school management system built using Laravel 11 with AdminLTE template. It helps schools efficiently manage students, teachers, courses, classes, exam results, fees, timetables, and announcements.",
   tags: ["Laravel 11", "AdminLTE", "MySQL", "Blade", "Bootstrap"],
@@ -90,7 +106,7 @@ export const projects = [
 },
 
 {
-  id: 6,
+  id: 7,
   title: "E-commerce Website",
   description: "Laravel-based e-commerce system with user authentication, product management, cart, and payment integration. Fully responsive.",
   tags: ["PHP", "Laravel", "MySQL", "CSS", "JavaScript"],
@@ -102,7 +118,7 @@ export const projects = [
 
 
 {
-  id: 7,
+  id: 8,
   title: "Notes/Posts Management System",
   description: "Django web app with user authentication, role management, and post creation/viewing. Fully responsive for desktop and mobile.",
   tags: ["Python", "Django", "PostgreSQL", "CSS", "JavaScript"],
@@ -111,7 +127,7 @@ export const projects = [
   demo: "",
 },
   {
-    id: 8,
+    id: 9,
     title: "Career Guidance Quiz",
     description: "The app allows users to answer multiple-choice questions and get personalized career suggestions based on their answer",
     tags: ["React", "Tailwind CSS"],

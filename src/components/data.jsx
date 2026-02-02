@@ -56,10 +56,7 @@ export const projects = [
   image: user,
   github: "https://github.com/athumaniMfaume/mern-user-management-system",
   demo: "https://mern-user-management-system.onrender.com/",
-}
-
-
-
+},
 
 
 {
@@ -81,8 +78,6 @@ export const projects = [
   github: "https://github.com/athumaniMfaume/ebweb2",
   demo: "https://ebweb2.netlify.app",
 },
-
-
 
 
 {
@@ -114,8 +109,6 @@ export const projects = [
   github: "https://github.com/athumaniMfaume/ecommerce-project",
   demo: "",
 },
-
-
 
 {
   id: 8,

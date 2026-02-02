@@ -59,13 +59,15 @@ export const projects = [
 
 {
   id: 3,
-  title: "E-commerce Website",
-  description: "Laravel-based e-commerce system with user authentication, product management, cart, and payment integration. Fully responsive.",
-  tags: ["PHP", "Laravel", "MySQL", "CSS", "JavaScript"],
-  image: c1,
-  github: "https://github.com/athumaniMfaume/ecommerce-project",
-  demo: "",
+  title: "Notes Management System",
+  description: "MERN stack app to create, organize, and manage notes efficiently.",
+  tags: ["MongoDB", "Express", "React", "Node"],
+  image: n1,
+  github: "https://github.com/athumaniMfaume/mern-notes-management-system",
+  demo: "https://mern-notes-management-system.onrender.com/",
 },
+
+
 
 {
   id: 4,
@@ -89,13 +91,15 @@ export const projects = [
 
 {
   id: 6,
-  title: "Notes Management System",
-  description: "MERN stack app to create, organize, and manage notes efficiently.",
-  tags: ["MongoDB", "Express", "React", "Node"],
-  image: n1,
-  github: "https://github.com/athumaniMfaume/mern-notes-management-system",
+  title: "E-commerce Website",
+  description: "Laravel-based e-commerce system with user authentication, product management, cart, and payment integration. Fully responsive.",
+  tags: ["PHP", "Laravel", "MySQL", "CSS", "JavaScript"],
+  image: c1,
+  github: "https://github.com/athumaniMfaume/ecommerce-project",
   demo: "",
 },
+
+
 
 {
   id: 7,

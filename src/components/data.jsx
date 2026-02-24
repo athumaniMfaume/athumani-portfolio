@@ -12,6 +12,7 @@ import n1 from '../assets/n1.PNG';
 import dja1 from '../assets/dja1.PNG';
 import c1 from '../assets/c1.PNG';
 import user from '../assets/user.PNG';
+import scgs from '../assets/scgs.PNG';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -36,10 +37,19 @@ const blueIconStyle = { background: 'rgb(33, 150, 243)', color: '#fff' };
 // };
 
 // Projects
+// Projects
 export const projects = [
-
-    {
+  {
     id: 1,
+    title: "Tanzania Student Career Guidance System",
+    description: "A comprehensive MERN stack platform designed to help Tanzanian students choose the right career paths, subjects, and universities based on their interests and grades.",
+    tags: ["MongoDB", "Express", "React", "Node", "Tailwind CSS", "JWT"],
+    image: scgs,
+    github: "https://github.com/athumaniMfaume/Tanzania-Student-Career-Guidance-System",
+    demo: "https://tanzania-student-career-guidance-system.onrender.com/",
+  },
+  {
+    id: 2,
     title: "Employee Management System",
     description: "Laravel-based web app to manage employees, track leave, monitor payroll, and organize departments efficiently.",
     tags: ["Laravel", "MYSQL"],
@@ -47,91 +57,80 @@ export const projects = [
     github: "https://github.com/athumaniMfaume/employees-management-system",
     demo: "https://employees-management-system-2.onrender.com/",
   },
-
-{
-  id: 2,
-  title: "User Management System",
-  description: "MERN stack app to manage users with authentication, roles, and secure access.",
-  tags: ["MongoDB", "Express", "React", "Node", "JWT", "bcrypt"],
-  image: user,
-  github: "https://github.com/athumaniMfaume/mern-user-management-system",
-  demo: "https://mern-user-management-system.onrender.com/",
-},
-
-
-{
-  id: 3,
-  title: "Notes Management System",
-  description: "MERN stack app to create, organize, and manage notes efficiently.",
-  tags: ["MongoDB", "Express", "React", "Node"],
-  image: n1,
-  github: "https://github.com/athumaniMfaume/mern-notes-management-system",
-  demo: "https://mern-notes-management-system.onrender.com/",
-},
-
-{
-  id: 4,
-  title: "Appointment Request Website",
-  description: "A smart website that allows users to request appointments via a calendar and send messages through an integrated contact form.",
-  tags: ["React", "Tailwind CSS", "JavaScript"],
-  image: eb,
-  github: "https://github.com/athumaniMfaume/ebweb2",
-  demo: "https://ebweb2.netlify.app",
-},
-
-
-{
-  id: 5,
-  title: "Mult School Management System (EduManage SMS)",
-  description: "EduManage SMS is a monolithic Laravel 12 application with React integration, designed to manage multiple schools efficiently. It helps administrators manage students, teachers, courses, and enrollments in a centralized and user-friendly interface.",
-  tags: ["Laravel 12", "React", "MySQL", "AdminLTE", "Bootstrap"],
-  image: msms, // replace with your project image variable
-  github: "https://github.com/athumaniMfaume/edumanage-sms",
-  demo: "", // add live demo URL if available
-},
-
-{
-  id: 6,
-  title: "School Management System",
-  description: "A web-based school management system built using Laravel 11 with AdminLTE template. It helps schools efficiently manage students, teachers, courses, classes, exam results, fees, timetables, and announcements.",
-  tags: ["Laravel 11", "AdminLTE", "MySQL", "Blade", "Bootstrap"],
-  image: sms, // replace with your project image variable
-  github: "https://github.com/athumaniMfaume/School-Management-System",
-  demo: "", // add live demo URL if available
-},
-
-{
-  id: 7,
-  title: "E-commerce Website",
-  description: "Laravel-based e-commerce system with user authentication, product management, cart, and payment integration. Fully responsive.",
-  tags: ["PHP", "Laravel", "MySQL", "CSS", "JavaScript"],
-  image: c1,
-  github: "https://github.com/athumaniMfaume/ecommerce-project",
-  demo: "",
-},
-
-{
-  id: 8,
-  title: "Notes/Posts Management System",
-  description: "Django web app with user authentication, role management, and post creation/viewing. Fully responsive for desktop and mobile.",
-  tags: ["Python", "Django", "PostgreSQL", "CSS", "JavaScript"],
-  image: dja1,
-  github: "https://github.com/athumaniMfaume/blog-django",
-  demo: "",
-},
+  {
+    id: 3,
+    title: "User Management System",
+    description: "MERN stack app to manage users with authentication, roles, and secure access.",
+    tags: ["MongoDB", "Express", "React", "Node", "JWT", "bcrypt"],
+    image: user,
+    github: "https://github.com/athumaniMfaume/mern-user-management-system",
+    demo: "https://mern-user-management-system.onrender.com/",
+  },
+  {
+    id: 4,
+    title: "Notes Management System",
+    description: "MERN stack app to create, organize, and manage notes efficiently.",
+    tags: ["MongoDB", "Express", "React", "Node"],
+    image: n1,
+    github: "https://github.com/athumaniMfaume/mern-notes-management-system",
+    demo: "https://mern-notes-management-system.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "Appointment Request Website",
+    description: "A smart website that allows users to request appointments via a calendar and send messages through an integrated contact form.",
+    tags: ["React", "Tailwind CSS", "JavaScript"],
+    image: eb,
+    github: "https://github.com/athumaniMfaume/ebweb2",
+    demo: "https://ebweb2.netlify.app",
+  },
+  {
+    id: 6,
+    title: "Mult School Management System (EduManage SMS)",
+    description: "EduManage SMS is a monolithic Laravel 12 application with React integration, designed to manage multiple schools efficiently.",
+    tags: ["Laravel 12", "React", "MySQL", "AdminLTE", "Bootstrap"],
+    image: msms,
+    github: "https://github.com/athumaniMfaume/edumanage-sms",
+    demo: "", 
+  },
+  {
+    id: 7,
+    title: "School Management System",
+    description: "A web-based school management system built using Laravel 11 with AdminLTE template for managing students, teachers, and exams.",
+    tags: ["Laravel 11", "AdminLTE", "MySQL", "Blade", "Bootstrap"],
+    image: sms,
+    github: "https://github.com/athumaniMfaume/School-Management-System",
+    demo: "",
+  },
+  {
+    id: 8,
+    title: "E-commerce Website",
+    description: "Laravel-based e-commerce system with user authentication, product management, cart, and payment integration.",
+    tags: ["PHP", "Laravel", "MySQL", "CSS", "JavaScript"],
+    image: c1,
+    github: "https://github.com/athumaniMfaume/ecommerce-project",
+    demo: "",
+  },
   {
     id: 9,
+    title: "Notes/Posts Management System",
+    description: "Django web app with user authentication, role management, and post creation. Fully responsive.",
+    tags: ["Python", "Django", "PostgreSQL", "CSS", "JavaScript"],
+    image: dja1,
+    github: "https://github.com/athumaniMfaume/blog-django",
+    demo: "",
+  },
+  {
+    id: 10,
     title: "Career Guidance Quiz",
-    description: "The app allows users to answer multiple-choice questions and get personalized career suggestions based on their answer",
+    description: "The app allows users to answer multiple-choice questions and get personalized career suggestions based on their answers.",
     tags: ["React", "Tailwind CSS"],
     image: cms,
     github: "https://github.com/athumaniMfaume/career-quiz-react",
     demo: "https://careerquizreact.netlify.app/",
   },
-
-
-
 ];
+
 
 // Timeline
 export const timeline = [

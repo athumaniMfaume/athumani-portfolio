@@ -61,7 +61,7 @@ export const projects = [
     id: 3,
     title: "Mult School Management System (EduManage SMS)",
     description: "EduManage SMS is a monolithic Laravel 12 application with React integration, designed to manage multiple schools efficiently.",
-    tags: ["Laravel 12", "React", "MySQL", "Tailwind CSS"],
+    tags: ["Laravel 12", "React", "TypeScript", "Inertia", "Render", "PostgreSQL", "Tailwind CSS"],
     image: msms,
     github: "https://github.com/athumaniMfaume/edumanage-sms",
     demo: "https://edumanage-sms.onrender.com/", 

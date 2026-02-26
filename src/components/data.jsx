@@ -57,8 +57,17 @@ export const projects = [
     github: "https://github.com/athumaniMfaume/employees-management-system",
     demo: "https://employees-management-system-2.onrender.com/",
   },
-  {
+      {
     id: 3,
+    title: "Mult School Management System (EduManage SMS)",
+    description: "EduManage SMS is a monolithic Laravel 12 application with React integration, designed to manage multiple schools efficiently.",
+    tags: ["Laravel 12", "React", "MySQL", "Tailwind CSS"],
+    image: msms,
+    github: "https://github.com/athumaniMfaume/edumanage-sms",
+    demo: "https://mern-notes-management-system.onrender.com/", 
+  },
+  {
+    id: 4,
     title: "User Management System",
     description: "MERN stack app to manage users with authentication, roles, and secure access.",
     tags: ["MongoDB", "Express", "React", "Node", "JWT", "bcrypt"],
@@ -66,15 +75,8 @@ export const projects = [
     github: "https://github.com/athumaniMfaume/mern-user-management-system",
     demo: "https://mern-user-management-system.onrender.com/",
   },
-  {
-    id: 4,
-    title: "Notes Management System",
-    description: "MERN stack app to create, organize, and manage notes efficiently.",
-    tags: ["MongoDB", "Express", "React", "Node"],
-    image: n1,
-    github: "https://github.com/athumaniMfaume/mern-notes-management-system",
-    demo: "https://mern-notes-management-system.onrender.com/",
-  },
+
+
   {
     id: 5,
     title: "Appointment Request Website",
@@ -84,15 +86,16 @@ export const projects = [
     github: "https://github.com/athumaniMfaume/ebweb2",
     demo: "https://ebweb2.netlify.app",
   },
-  {
+    {
     id: 6,
-    title: "Mult School Management System (EduManage SMS)",
-    description: "EduManage SMS is a monolithic Laravel 12 application with React integration, designed to manage multiple schools efficiently.",
-    tags: ["Laravel 12", "React", "MySQL", "AdminLTE", "Bootstrap"],
-    image: msms,
-    github: "https://github.com/athumaniMfaume/edumanage-sms",
-    demo: "", 
+    title: "Notes Management System",
+    description: "MERN stack app to create, organize, and manage notes efficiently.",
+    tags: ["MongoDB", "Express", "React", "Node"],
+    image: n1,
+    github: "https://github.com/athumaniMfaume/mern-notes-management-system",
+    demo: "",
   },
+
   {
     id: 7,
     title: "School Management System",
@@ -100,7 +103,7 @@ export const projects = [
     tags: ["Laravel 11", "AdminLTE", "MySQL", "Blade", "Bootstrap"],
     image: sms,
     github: "https://github.com/athumaniMfaume/School-Management-System",
-    demo: "",
+    demo: "https://edumanage-sms.onrender.com/",
   },
   {
     id: 8,

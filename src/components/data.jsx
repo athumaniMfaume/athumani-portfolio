@@ -64,7 +64,7 @@ export const projects = [
     tags: ["Laravel 12", "React", "MySQL", "Tailwind CSS"],
     image: msms,
     github: "https://github.com/athumaniMfaume/edumanage-sms",
-    demo: "https://mern-notes-management-system.onrender.com/", 
+    demo: "https://edumanage-sms.onrender.com/", 
   },
   {
     id: 4,
@@ -93,7 +93,7 @@ export const projects = [
     tags: ["MongoDB", "Express", "React", "Node"],
     image: n1,
     github: "https://github.com/athumaniMfaume/mern-notes-management-system",
-    demo: "",
+    demo: "https://mern-notes-management-system.onrender.com/",
   },
 
   {

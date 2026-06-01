@@ -1,75 +1,167 @@
 import React from 'react'
-import { Navbar } from '../components/Navbar'
-import athumani from '../assets/athumani.jpg'
+import { Navbar } from './Navbar'
+import ath from '../assets/ath.jpg'
 import { services, testimonials } from './data'
+import { FaArrowRight, FaDownload, FaQuoteLeft } from 'react-icons/fa'
+
+const stats = [
+  { value: '4+', label: 'Years Experience' },
+  { value: '20+', label: 'Projects Shipped' },
+  { value: '10+', label: 'Happy Clients' },
+  { value: 'AI', label: 'Powered Workflows' },
+]
 
 export const About = () => {
   return (
-    <div className='md:rounded-xl bg-gray-600 md:m-7 flex-1 p-7'>
+    <div className='space-y-6 animate-fadeUp'>
       <Navbar />
-      <div className='mt-7'>
-        <h1 className='text-white font-bold text-3xl mb-2 '>About me</h1>
-        <hr className="border-2 border-yellow-500 w-12 rounded-full" />
-        <div className='mt-5 md:hidden'>
-          <img src={athumani} alt="" className='bg-gray-700 rounded-2xl' />
-        </div>
-        <p className='mt-4 text-gray-300 text-xl font-semibold'>
-           I’m Athumani Mfaume, a Full Stack Web & Mobile Developer skilled in Laravel,
-            MERN Stack, Flutter, Python, and Spring Boot. I’ve gained practical experience at
-             Boom Soft Tech and Melian Software, building scalable, user-focused systems.
-            Passionate about problem-solving, clean code, and creating impactful digital solutions.
-        </p>
 
-        <p className="mt-2 text-gray-300 text-xl font-semibold">
-            I thrive in collaborative environments, continuously learning and applying modern technologies
-            to deliver efficient, elegant, and maintainable solutions. My goal is to create software
-            that not only meets business requirements but also enhances the user experience and drives value.
-        </p>
-        {/* services's section */}
-        <h1 className='text-2xl text-white font-bold mt-7'>What I'm Doing</h1>
-        <div className='grid md:grid-cols-2 gap-6 mt-7'>
-          {
-            services.map((item, index) => {
-              return <div className='bg-gray-700 border shadow p-5 text-white flex gap-5 items-start
-              rounded-xl' key={index}>
-                <div className='text-4xl text-yellow-500'>
+      {/* Hero */}
+      <section className='glass rounded-3xl p-6 md:p-10 overflow-hidden relative'>
+        <div className='absolute -top-24 -right-24 w-72 h-72 bg-accent-violet/20 rounded-full blur-3xl' />
+        <div className='absolute -bottom-24 -left-24 w-72 h-72 bg-accent-cyan/20 rounded-full blur-3xl' />
+
+        <div className='relative grid md:grid-cols-[1fr_auto] gap-8 items-center'>
+          <div>
+            <span className='inline-flex items-center gap-2 rounded-full bg-white/5 border border-white/10 px-3 py-1 text-xs font-semibold text-accent-cyan'>
+              <span className='h-2 w-2 rounded-full bg-green-400 animate-pulse' />
+              Available for hire
+            </span>
+            <h1 className='mt-4 text-3xl md:text-5xl font-extrabold text-white leading-tight'>
+              Hi, I'm <span className='gradient-text'>Athumani Mfaume</span>
+            </h1>
+            <p className='mt-2 text-lg md:text-xl text-white/70 font-semibold'>
+              Full Stack Web, Mobile & AI Developer
+            </p>
+            <p className='mt-4 text-white/70 leading-relaxed max-w-2xl'>
+              Currently at <span className='text-white font-semibold'>Moinfo Tech</span> (since Jan 2026),
+              I build modern web and mobile applications powered by
+              <span className='text-white font-semibold'> Claude AI</span>.
+              I work across Laravel, MERN, Flutter, Python and Spring Boot, and
+              integrate Claude, GPT and Gemini into real products. I care about
+              clean code, great UX, and shipping things that make a difference.
+            </p>
+
+            <div className='mt-6 flex flex-wrap gap-3'>
+              <a
+                href='/contact'
+                className='inline-flex items-center gap-2 rounded-xl bg-accent-gradient bg-[length:200%_200%] animate-gradientShift px-5 py-3 text-sm font-bold text-ink-950 shadow-glow hover:scale-[1.02] transition'
+              >
+                Hire me <FaArrowRight />
+              </a>
+              <a
+                href='/portfolio'
+                className='inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-5 py-3 text-sm font-bold text-white hover:bg-white/10 transition'
+              >
+                <FaDownload /> View Projects
+              </a>
+            </div>
+          </div>
+
+          <div className='lg:hidden mx-auto relative'>
+            <div className='absolute -inset-3 rounded-full bg-accent-gradient blur-2xl opacity-40 animate-gradientShift bg-[length:200%_200%]'></div>
+            <div className='relative rounded-full p-[3px] bg-accent-gradient bg-[length:200%_200%] animate-gradientShift'>
+              <img
+                src={ath}
+                alt='Athumani Mfaume'
+                className='h-48 w-48 md:h-56 md:w-56 rounded-full object-cover object-top bg-ink-900'
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Stats */}
+        <div className='relative mt-8 grid grid-cols-2 md:grid-cols-4 gap-3'>
+          {stats.map((s) => (
+            <div
+              key={s.label}
+              className='rounded-2xl bg-white/5 border border-white/10 p-4 text-center'
+            >
+              <p className='text-2xl md:text-3xl font-extrabold gradient-text'>
+                {s.value}
+              </p>
+              <p className='text-xs md:text-sm text-white/60 mt-1'>{s.label}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* About / What I'm doing */}
+      <section className='glass rounded-3xl p-6 md:p-10'>
+        <h2 className='section-title'>About Me</h2>
+        <div className='mt-6 grid md:grid-cols-2 gap-6 text-white/75 leading-relaxed'>
+          <p>
+            I'm a developer with hands-on experience at Boom Soft Tech, Melian
+            Software, and currently
+            <span className='text-white font-semibold'> Moinfo Tech</span>,
+            building production web and mobile systems from concept to
+            deployment. I enjoy translating business problems into elegant,
+            maintainable software.
+          </p>
+          <p>
+            At Moinfo Tech I focus on AI-augmented engineering — building web
+            and mobile apps powered by
+            <span className='text-white font-semibold'> Claude AI</span>, and
+            also integrating <span className='text-white font-semibold'>GPT</span>
+            and <span className='text-white font-semibold'>Gemini</span> when
+            needed. I use AI tools daily to accelerate development without
+            sacrificing quality.
+          </p>
+        </div>
+
+        <h3 className='section-title text-xl md:text-2xl mt-12'>What I'm Doing</h3>
+        <div className='mt-8 grid sm:grid-cols-2 gap-5'>
+          {services.map((item, index) => (
+            <div
+              key={item.id}
+              className='group rounded-2xl bg-white/5 border border-white/10 p-5 hover:border-accent-cyan/60 hover:bg-white/[0.07] transition-all hover:-translate-y-1'
+              style={{ animationDelay: `${index * 60}ms` }}
+            >
+              <div className='flex gap-4 items-start'>
+                <div className='h-14 w-14 shrink-0 grid place-items-center rounded-xl bg-gradient-to-br from-accent-cyan/20 to-accent-violet/20 border border-white/10 text-accent-cyan text-2xl group-hover:scale-110 transition'>
                   <item.icon />
                 </div>
                 <div>
-                  <h1 className='font-bold text-2xl'> {item.title} </h1>
-                  <p className='text-xl text-gray-300'> {item.description} </p>
+                  <h4 className='font-bold text-white text-lg'>{item.title}</h4>
+                  <p className='text-white/70 text-sm mt-1'>
+                    {item.description}
+                  </p>
                 </div>
               </div>
-            })
-          }
+            </div>
+          ))}
         </div>
+      </section>
 
-        {/* testimonials section */}
-        <h1 className='text-2xl text-white font-bold mt-7'> Testimonials </h1>
-        <div className='flex flex-col md:flex-row gap-14 md:gap-7 mt-14'>
-          {
-            testimonials.map((item, index) => {
-              return <div className='bg-gray-700 border border-white rounded-xl shadow py-4 px-6'
-                     key={index}>
-                      <div className='flex gap-5'>
-                        <img src={item.image} alt={item.image}
-                         className='h-20 w-20 bg-gray-800 rounded-2xl -mt-14 border-2
-                         shadow-2xl border-gray-600' />
-                         <div>
-                              <h1 className='text-white font-bold text-xl'> {item.name} </h1>
-                             <p>⭐⭐⭐⭐⭐</p>
-                         </div>
-                      </div>
-                      <p className='text-gray-300 text-lg pr-6 mt-2'> {item.testimonial } </p>
-
-                  
-
+      {/* Testimonials */}
+      <section className='glass rounded-3xl p-6 md:p-10'>
+        <h2 className='section-title'>Testimonials</h2>
+        <div className='mt-10 grid md:grid-cols-2 gap-6'>
+          {testimonials.map((item) => (
+            <div
+              key={item.id}
+              className='relative rounded-2xl bg-white/5 border border-white/10 p-6 pt-10'
+            >
+              <FaQuoteLeft className='absolute -top-3 left-6 text-3xl text-accent-cyan/70' />
+              <p className='text-white/80 italic leading-relaxed'>
+                "{item.testimonial}"
+              </p>
+              <div className='flex items-center gap-4 mt-5'>
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className='h-14 w-14 rounded-full object-cover ring-2 ring-accent-cyan/40'
+                />
+                <div>
+                  <p className='text-white font-bold'>{item.name}</p>
+                  <p className='text-white/60 text-sm'>{item.role}</p>
+                  <p className='text-amber-400 text-sm mt-0.5'>★★★★★</p>
+                </div>
               </div>
-            } )
-          }
+            </div>
+          ))}
         </div>
-    
-      </div>
+      </section>
     </div>
   )
 }

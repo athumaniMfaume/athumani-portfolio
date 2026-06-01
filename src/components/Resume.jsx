@@ -1,59 +1,67 @@
-import React from 'react';
-import { Navbar } from './Navbar';
-import { timeline } from './data';
+import React from 'react'
+import { Navbar } from './Navbar'
+import { timeline } from './data'
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+} from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
 
 export const Resume = () => {
   return (
-    <div className="md:rounded-xl bg-gray-600 md:m-7 flex-1 p-7">
+    <div className='space-y-6 animate-fadeUp'>
       <Navbar />
-      <div className="mt-7">
-        <h1 className="text-white font-bold text-3xl mb-2">Resume</h1>
-        <hr className="border-2 border-yellow-500 w-14 mb-7" />
 
-        <VerticalTimeline>
-          {timeline.map((t, i) => {
-            const isCurrentJob = i === 0; // highlight current job
-            const contentStyle = isCurrentJob
-              ? { background: 'rgb(33, 150, 243)', color: '#fff' }
-              : { background: 'rgb(55, 65, 81)', color: '#fff' }; // slightly darker for past
-            const arrowStyle = isCurrentJob
-              ? { borderRight: '7px solid rgb(33, 150, 243)' }
-              : { borderRight: '7px solid rgb(55, 65, 81)' };
+      <section className='glass rounded-3xl p-6 md:p-10'>
+        <h1 className='section-title'>Resume</h1>
+        <p className='text-white/60 mt-4 max-w-2xl'>
+          A timeline of my work, AI engineering experience, and education.
+        </p>
 
-            return (
-              <VerticalTimelineElement
-                key={i}
-                className="vertical-timeline-element--work"
-                contentStyle={contentStyle}
-                contentArrowStyle={arrowStyle}
-                date={t.date}
-                icon={t.icon}
-                iconStyle={t.iconStyle}
-              >
-                <h3 className="vertical-timeline-element-title text-lg font-semibold">
-                  {t.title}
-                </h3>
-                {t.subtitle && (
-                  <h4 className="vertical-timeline-element-subtitle text-sm text-gray-200 mb-2">
-                    {t.subtitle}
-                  </h4>
-                )}
-                {t.desc && (
-                  <p className="text-gray-100 whitespace-pre-line text-sm leading-relaxed">
-                    {t.desc}
-                  </p>
-                )}
-              </VerticalTimelineElement>
-            );
-          })}
-        </VerticalTimeline>
-      </div>
+        <div className='mt-10'>
+          <VerticalTimeline lineColor=''>
+            {timeline.map((t, i) => {
+              const contentStyle = {
+                background: 'rgba(255,255,255,0.04)',
+                color: '#fff',
+                border: '1px solid rgba(255,255,255,0.10)',
+                borderRadius: '20px',
+                boxShadow: '0 10px 30px rgba(0,0,0,0.35)',
+                backdropFilter: 'blur(12px)',
+              }
+              const arrowStyle = {
+                borderRight: '7px solid rgba(255,255,255,0.10)',
+              }
+              return (
+                <VerticalTimelineElement
+                  key={i}
+                  className='vertical-timeline-element--work'
+                  contentStyle={contentStyle}
+                  contentArrowStyle={arrowStyle}
+                  date={t.date}
+                  dateClassName='!text-white/70 !font-semibold'
+                  icon={t.icon}
+                  iconStyle={t.iconStyle}
+                >
+                  <h3 className='text-lg md:text-xl font-bold text-white'>
+                    {t.title}
+                  </h3>
+                  {t.subtitle && (
+                    <h4 className='text-sm gradient-text font-semibold mb-2'>
+                      {t.subtitle}
+                    </h4>
+                  )}
+                  {t.desc && (
+                    <p className='text-white/75 whitespace-pre-line text-sm leading-relaxed'>
+                      {t.desc}
+                    </p>
+                  )}
+                </VerticalTimelineElement>
+              )
+            })}
+          </VerticalTimeline>
+        </div>
+      </section>
     </div>
-  );
-};
-
+  )
+}

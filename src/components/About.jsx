@@ -49,11 +49,25 @@ export const About = () => {
               >
                 Hire me <FaArrowRight />
               </a>
+
+              <a
+                href='/Athumani_Mfaume_CV.pdf'
+                download='Athumani_Mfaume_CV.pdf'
+                className='group relative inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-amber-400 via-pink-500 to-rose-500 bg-[length:200%_200%] animate-gradientShift px-5 py-3 text-sm font-bold text-white shadow-[0_10px_30px_rgba(244,114,182,0.45)] hover:scale-[1.03] hover:shadow-[0_15px_40px_rgba(244,114,182,0.6)] transition-all overflow-hidden'
+              >
+                <span className='absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-full transition-transform duration-700' />
+                <FaDownload className='relative group-hover:-translate-y-0.5 transition-transform' />
+                <span className='relative'>Download CV</span>
+                <span className='relative ml-1 rounded-md bg-white/25 backdrop-blur px-1.5 py-0.5 text-[10px] font-extrabold tracking-widest'>
+                  PDF
+                </span>
+              </a>
+
               <a
                 href='/portfolio'
                 className='inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-5 py-3 text-sm font-bold text-white hover:bg-white/10 transition'
               >
-                <FaDownload /> View Projects
+                View Projects <FaArrowRight />
               </a>
             </div>
           </div>

@@ -8,6 +8,7 @@ import {
   FaWhatsapp,
 } from 'react-icons/fa'
 import { MdOutlinePhoneIphone } from 'react-icons/md'
+import { HiX } from 'react-icons/hi'
 import { NavLink } from 'react-router-dom'
 
 const links = [
@@ -23,16 +24,25 @@ export const ResponsiveMenu = ({ open, setOpen }) => {
       {/* backdrop */}
       <div
         onClick={() => setOpen(false)}
-        className={`fixed inset-0 z-30 bg-black/60 backdrop-blur-sm md:hidden transition-opacity ${
+        className={`fixed inset-0 z-[100] bg-black/70 backdrop-blur-sm md:hidden transition-opacity duration-300 ${
           open ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
       />
       {/* drawer */}
       <div
-        className={`fixed top-0 left-0 bottom-0 z-40 flex h-screen w-[82%] max-w-sm flex-col bg-ink-900/95 backdrop-blur-xl border-r border-white/10 px-5 pb-6 pt-6 md:hidden rounded-r-3xl shadow-2xl transition-transform duration-300 ${
+        className={`fixed top-0 left-0 bottom-0 z-[110] flex h-screen w-[82%] max-w-sm flex-col bg-[#080d1a] border-r border-white/10 px-5 pb-6 pt-6 md:hidden rounded-r-3xl shadow-2xl transition-transform duration-300 ease-in-out ${
           open ? 'translate-x-0' : '-translate-x-full'
         } overflow-y-auto`}
       >
+        {/* Close button */}
+        <button
+          onClick={() => setOpen(false)}
+          className='absolute top-4 right-4 h-9 w-9 grid place-items-center rounded-xl bg-white/5 border border-white/10 text-white/70 hover:text-white hover:border-accent-cyan/60 transition'
+          aria-label='Close menu'
+        >
+          <HiX className='w-5 h-5' />
+        </button>
+
         {/* Profile */}
         <div className='flex flex-col items-center text-center'>
           <div className='relative w-36'>

@@ -51,7 +51,7 @@ export const About = () => {
               </a>
 
               <a
-                href='/Athumani_Mfaume_CV.pdf'
+                href={`${import.meta.env.BASE_URL}Athumani_Mfaume_CV.pdf`}
                 download='Athumani_Mfaume_CV.pdf'
                 className='group relative inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-amber-400 via-pink-500 to-rose-500 bg-[length:200%_200%] animate-gradientShift px-5 py-3 text-sm font-bold text-white shadow-[0_10px_30px_rgba(244,114,182,0.45)] hover:scale-[1.03] hover:shadow-[0_15px_40px_rgba(244,114,182,0.6)] transition-all overflow-hidden'
               >

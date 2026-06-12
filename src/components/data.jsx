@@ -170,10 +170,15 @@ export const timeline = [
   // Previous Job
   {
     date: "Jan 2021 - Feb 2023",
-    title: "IT Support",
+    title: "IT Support Specialist",
     subtitle: "Boom Software Technology",
-    desc: `• Delivered IT support for hardware and software issues.
-• Provided technical support to employees, resolving issues efficiently and enhancing IT literacy through training sessions.`,
+    desc: `• Diagnosed and resolved hardware and software issues for desktops, laptops, and printers across the organisation.
+• Set up, configured, and maintained LAN/Wi-Fi networks and network devices (routers, switches, access points).
+• Installed, configured, and updated operating systems (Windows, Linux) and business applications.
+• Managed user accounts, access control, and permissions (Active Directory / user management systems).
+• Handled help desk tickets and resolved technical issues efficiently, maintaining high user satisfaction.
+• Performed regular system backups, maintenance schedules, and security patch updates.
+• Conducted IT training sessions that improved employee digital literacy and day-to-day productivity.`,
     icon: <FontAwesomeIcon icon={faBriefcase} />,
     iconStyle: fuchsiaIcon,
   },
@@ -240,7 +245,7 @@ export const services = [
     id: 4,
     title: "IT Support",
     icon: FaHeadset,
-    description: "Providing technical support, troubleshooting, and IT solutions for businesses.",
+    description: "Hardware & software troubleshooting, network setup & configuration, OS administration (Windows/Linux), help desk support, remote assistance, and end-user IT training for businesses.",
   },
   {
     id: 5,

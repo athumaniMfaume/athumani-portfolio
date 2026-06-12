@@ -31,15 +31,17 @@ export const About = () => {
               Hi, I'm <span className='gradient-text'>Athumani Mfaume</span>
             </h1>
             <p className='mt-2 text-lg md:text-xl text-white/70 font-semibold'>
-              Full Stack Web, Mobile & AI Developer
+              Full Stack Web, Mobile & AI Developer · IT Support Specialist
             </p>
             <p className='mt-4 text-white/70 leading-relaxed max-w-2xl'>
               Currently at <span className='text-white font-semibold'>Moinfo Tech</span> (since Jan 2026),
               I build modern web and mobile applications powered by
               <span className='text-white font-semibold'> Claude AI</span>.
               I work across Laravel, MERN, Flutter, Python and Spring Boot, and
-              integrate Claude, GPT and Gemini into real products. I care about
-              clean code, great UX, and shipping things that make a difference.
+              integrate Claude, GPT and Gemini into real products. With a solid
+              foundation in <span className='text-white font-semibold'>IT support</span> — hardware,
+              networking, and help desk — I bring both the technical depth and
+              end-user perspective to everything I build.
             </p>
 
             <div className='mt-6 flex flex-wrap gap-3'>
@@ -105,12 +107,13 @@ export const About = () => {
         <h2 className='section-title'>About Me</h2>
         <div className='mt-6 grid md:grid-cols-2 gap-6 text-white/75 leading-relaxed'>
           <p>
-            I'm a developer with hands-on experience at Boom Soft Tech, Melian
-            Software, and currently
-            <span className='text-white font-semibold'> Moinfo Tech</span>,
-            building production web and mobile systems from concept to
-            deployment. I enjoy translating business problems into elegant,
-            maintainable software.
+            I'm a developer and IT support specialist with hands-on experience
+            at <span className='text-white font-semibold'>Boom Software Technology</span> (IT support),{' '}
+            <span className='text-white font-semibold'>Melian Software</span>, and currently{' '}
+            <span className='text-white font-semibold'>Moinfo Tech</span>, building production web
+            and mobile systems from concept to deployment. My IT support background
+            — hardware troubleshooting, networking, OS administration, and help desk —
+            gives me a practical, user-first perspective that informs every solution I build.
           </p>
           <p>
             At Moinfo Tech I focus on AI-augmented engineering — building web
@@ -118,8 +121,8 @@ export const About = () => {
             <span className='text-white font-semibold'> Claude AI</span>, and
             also integrating <span className='text-white font-semibold'>GPT</span>
             and <span className='text-white font-semibold'>Gemini</span> when
-            needed. I use AI tools daily to accelerate development without
-            sacrificing quality.
+            needed. Whether it's a complex software system or a technical support
+            challenge, I enjoy turning problems into clean, maintainable solutions.
           </p>
         </div>
 

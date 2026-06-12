@@ -27,8 +27,7 @@ export const Portfolio = () => {
           <div>
             <h1 className='section-title'>Portfolio</h1>
             <p className='text-white/60 mt-4 max-w-2xl'>
-              A selection of full stack, mobile and AI-integrated projects I've
-              built.
+              A selection of full stack, mobile, AI-integrated and IT support projects I've built and delivered.
             </p>
           </div>
         </div>

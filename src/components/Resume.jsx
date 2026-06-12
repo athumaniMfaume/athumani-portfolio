@@ -15,7 +15,7 @@ export const Resume = () => {
       <section className='glass rounded-3xl p-6 md:p-10'>
         <h1 className='section-title'>Resume</h1>
         <p className='text-white/60 mt-4 max-w-2xl'>
-          A timeline of my work, AI engineering experience, and education.
+          A timeline of my work experience — from IT support and software development to AI engineering and education.
         </p>
 
         <div className='mt-10'>

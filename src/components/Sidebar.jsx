@@ -24,6 +24,12 @@ const technicalSkills = [
   'Cloud (AWS, Azure)',
   'CI/CD',
   'Payment Integration',
+  'Hardware Troubleshooting',
+  'Network Setup & Config',
+  'Windows & Linux Admin',
+  'Help Desk & Remote Support',
+  'Active Directory',
+  'System Maintenance',
 ]
 
 const softSkills = [
@@ -65,6 +71,9 @@ export const Sidebar = () => {
           </h1>
           <span className='mt-2 inline-block rounded-full bg-white/5 border border-white/10 px-4 py-1.5 text-sm font-semibold text-accent-cyan'>
             Full Stack & AI Developer
+          </span>
+          <span className='mt-1.5 inline-block rounded-full bg-white/5 border border-white/10 px-4 py-1.5 text-sm font-semibold text-fuchsia-400'>
+            IT Support Specialist
           </span>
           <span className='mt-2 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-accent-cyan/15 to-accent-violet/15 border border-accent-cyan/30 px-3 py-1 text-xs font-semibold text-white'>
             <span className='h-1.5 w-1.5 rounded-full bg-green-400 animate-pulse' />

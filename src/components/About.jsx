@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Navbar } from './Navbar'
 import ath from '../assets/ath.jpg'
 import { services, testimonials } from './data'
@@ -45,12 +46,12 @@ export const About = () => {
             </p>
 
             <div className='mt-6 flex flex-wrap gap-3'>
-              <a
-                href='/contact'
+              <Link
+                to='/contact'
                 className='inline-flex items-center gap-2 rounded-xl bg-accent-gradient bg-[length:200%_200%] animate-gradientShift px-5 py-3 text-sm font-bold text-ink-950 shadow-glow hover:scale-[1.02] transition'
               >
                 Hire me <FaArrowRight />
-              </a>
+              </Link>
 
               <a
                 href={`${import.meta.env.BASE_URL}Athumani_Mfaume_CV.pdf`}
@@ -65,12 +66,12 @@ export const About = () => {
                 </span>
               </a>
 
-              <a
-                href='/portfolio'
+              <Link
+                to='/portfolio'
                 className='inline-flex items-center gap-2 rounded-xl bg-white/5 border border-white/10 px-5 py-3 text-sm font-bold text-white hover:bg-white/10 transition'
               >
                 View Projects <FaArrowRight />
-              </a>
+              </Link>
             </div>
           </div>
 
